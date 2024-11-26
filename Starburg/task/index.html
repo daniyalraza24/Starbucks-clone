@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css"
+        integrity="sha512-+1GzNJIJQ0SwHimHEEDQ0jbyQuglxEdmQmKsu8KI7QkMPAnyDrL9TAnVyLPEttcTxlnLVzaQgxv2FpLCLtli0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Sedan+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>NFT-Plateform</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="" class="logo">NFT-Vibes</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icon">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:0">Home</a>
+            <a href="#trending" style="--i:1">Trending</a>
+            <a href="#products" style="--i:2">Products</a>
+            <a href="#earn" style="--i:3">Earning</a>
+            <a href="#blogs" style="--i:4">Blogs</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+
+
+
+        <!-- <img src="pic.png" alt=""> -->
+    </section>
+  <!-- popular nft trader  -->
+    <div class="person" id="home">
+        <div class="sellar">
+            <div class="nft-seller">
+                <img src="data:image/jpeg;base64,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"
+                    alt="">
+                <p>Nigth Man <br> 82.02ETH</p>
+            </div>
+            <div class="nft-seller">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdJvPIakRC_al2gp9ZKOieOB-TGZ-qTWvu_NNx-CXFBw&s"
+                    alt="">
+                <p>Nigth Man <br> 82.02ETH</p>
+            </div>
+            <div class="nft-seller">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiETH67Q5PmJ9t0Fuo2ygs9muUmqPHxrt_9zwU3tPK4g&s"
+                    alt="">
+                <p>Nigth Man <br> 82.02ETH</p>
+            </div>
+            <div class="nft-seller">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToX8LKlTXfdl0KJ9D_zAEpn8xfgXl_4p4PzxhSurrtfQ&s"
+                    alt="">
+                <p>Nigth Man <br> 82.02ETH</p>
+            </div>
+            <div class="nft-seller">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsngT_mkqK8XY7FUd34EA768XMnaeTGLSqb3C1Nu_EJA&s"
+                    alt="">
+                <p>Nigth Man <br> 82.02ETH</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--trending nft slider -->
+    <h1 class="sub-title">Trending<span> NFT's</span></h1>
+    <section class="product-slider" id="trending">
+
+        <ul id="autoWidth" class="cs-hidden">
+            <li class="item-a">
+                <div class="product-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL5vB_EdN2w_ybJfA4pa6yruQuundC-RtEmvDVAx0Fyw&s"
+                        alt="">
+                    <h2>Chickenk NFT</h2>
+                    <p><span><img src="andrew-tate.jpg" alt=""></span>Daniyal Raza</p>
+                    <p class="price">Total Bid <span>33.0ETH</span></p>
+
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="product-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR-e_uF3abddkxZeIzm4XG6iG3yC8YLd6d1fMbcf-_cA&s"
+                        alt="">
+                        <h2>Chickenk NFT</h2>
+                        <p><span><img src="andrew-tate.jpg" alt=""></span>Daniyal Raza</p>
+                        <p class="price">Total Bid <span>33.0ETH</span></p>
+    
+            </li>
+            <li class="item-a">
+                <div class="product-box">
+                    <img src="https://arweave.net/utM3toWL6Cs7R6INIGLNr8Ui6A9SgJHZ0QyZs3bDCTs" alt="">
+                    <h2>Chickenk NFT</h2>
+                    <p><span><img src="andrew-tate.jpg" alt=""></span>Daniyal Raza</p>
+                    <p class="price">Total Bid <span>33.0ETH</span></p>
+
+
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="product-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAgFXfFLAqG2cnctMKJ7ZWvHcaXN5Vg2r7grVZCw8wEw&s"
+                        alt="">
+                        <h2>Chickenk NFT</h2>
+                        <p><span><img src="andrew-tate.jpg" alt=""></span>Daniyal Raza</p>
+                        <p class="price">Total Bid <span>33.0ETH</span></p>
+    
+
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="product-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgoIbDukfnHVUnYFTVS17PWFrUhqAjlhpMN3TSKSzQtA&s"
+                        alt="">
+                        <h2>Chickenk NFT</h2>
+                        <p><span><img src="andrew-tate.jpg" alt=""></span>Daniyal Raza</p>
+                        <p class="price">Total Bid <span>33.0ETH</span></p>
+    
+
+                </div>
+            </li>
+
+        </ul>
+    </section>
+
+
+    <!-- product section  -->
+    <h1 class="sub-title">Hot<span> Products</span></h1>
+    <section class="service" id="products">
+        <div class="container">
+            <div class="service-list">
+                <div>
+
+                    <img src="https://i.pinimg.com/736x/5a/a8/dc/5aa8dc9b55691365525de014a019ad1b.jpg" alt="">
+                    <h2>GOAT NFT</h2>
+                    <p><span><img src="andrew-tate.jpg" alt=""></span>Daniyal Raza</p>
+                    <a href="#" class="read">See More</a>
+                </div>
+                <div>
+                    <img src="https://variety.com/wp-content/uploads/2022/08/Krapopolis-Chicken-NFT.png?w=1000&h=563&crop=1"
+                        alt="">
+                    <h2>CHICKEN NFT</h2>
+                    <p><span><img src="andrew-tate.jpg" alt=""></span>Daniyal Raza</p>
+                    <a href="#" class="read">See More</a>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwp9cRgWNklheFUdcijYhF2QqXIqQjgUF9Z5jtEzQgnA&s"
+                        alt="">
+                    <h2>COW NFT</h2>
+                    <p><span><img src="andrew-tate.jpg" alt=""></span>Daniyal Raza</p>
+                    <a href="#" class="read">See More</a>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSvyXMYhnVo1UibmZgvwX7izuclKwdMCqI_QvH_10ygg&s"
+                        alt="">
+                    <h2>MONKEY NFT</h2>
+                    <p><span><img src="andrew-tate.jpg" alt=""></span>Daniyal Raza</p>
+                    <a href="#" class="read">See More</a>
+                </div>
+            </div>
+
+            <!-- SECOND ROW -->
+
+            <div class="service-list">
+                <div>
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMt0f8uC_WDeKoOE69v4HvgKM7sjxFxoC1C5hUT1hkYw&s"
+                        alt="">
+                    <h2>LION NFT</h2>
+                    <p><span><img src="andrew-tate.jpg" alt=""></span>Daniyal Raza</p>
+                    <a href="#" class="read">See More</a>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXJzdwO3GqpcIPKcuGVYiR6hZNS37pNwAeHYenGltRtA&s"
+                        alt="">
+                    <h2>Snake NFT</h2>
+                    <p><span><img src="andrew-tate.jpg" alt=""></span>Daniyal Raza</p>
+                    <a href="#" class="read">See More</a>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGjVjopheYij7fisPLoEUzakFCDdW_Wvowgo5Zf6EUeQ&s"
+                        alt="">
+                    <h2>ELEPHENT NFT</h2>
+                    <p><span><img src="andrew-tate.jpg" alt=""></span>Daniyal Raza</p>
+                    <a href="#" class="read">See More</a>
+                </div>
+                <div>
+                    <img src="https://i.pinimg.com/originals/82/30/9b/82309b68ecf1b9e767cc9aad43f25fa5.jpg" alt="">
+                    <h2>CROCODILE NFT</h2>
+                    <p><span><img src="andrew-tate.jpg" alt=""></span>Daniyal Raza</p>
+                    <a href="#" class="read">See More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- register and earning section  -->
+    <h1 class="sub-title">Invest & <span> Earn</span></h1>
+    <section class="service" id="earn">
+        <div class="container1 ">
+            <div class=" service-list ">
+                <div class=" col-lg-4 col-sm-12">
+                    <i class="bx bx-log-in" style="color: #0ef;"></i>
+                    <h2>Register Now</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas asperiores excepturi sequi fuga
+                        quos rem cupiditate autem, officia et deserunt quaerat dolore sint a dolorem optio libero nobis
+                        at aperiam.</p>
+                    <a href="#" class="read">Register Now</a>
+                </div>
+                <div class=" col-lg-4 col-sm-12">
+                    <i class="bx bx-donate-heart" style="color: #0ef;"></i>
+                    <h2>Invest Now</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas asperiores excepturi sequi fuga
+                        quos rem cupiditate autem, officia et deserunt quaerat dolore sint a dolorem optio libero nobis
+                        at aperiam.</p>
+                    <a href="#" class="read">Invest Now</a>
+                </div>
+                <div class=" col-lg-4 col-sm-12">
+                    <i class="bx bx-money" style="color: #0ef;"></i>
+                    <h2>Start Earning</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas asperiores excepturi sequi fuga
+                        quos rem cupiditate autem, officia et deserunt quaerat dolore sint a dolorem optio libero nobis
+                        at aperiam.</p>
+                    <a href="#" class="read">Earn Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- BLOGS SECTION  -->
+    <h1 class="sub-title">Latest <span> Blogs</span></h1>
+<section id="blogs">
+    <div class="container  my-4">
+        <div class="row mb-2">
+            <!-- first--col -->
+            <div class="col-md-6  md-my-4 blog">
+                <div
+                    class="row g-0 mb-2 border border-primary  rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSji64POeG1QjwzbRjt1cFklcQYbjNP00lkA8TmWTMo5g&s"
+                            alt="">
+
+                    </div>
+
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">World</strong>
+                        <h4 class="mb-0">Latest Money NFT</h4>
+                        <div class="mb-1 text-muted">May 15</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
+                            lead-in to
+                            additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- second--col -->
+            <div class="col-md-6 blog">
+                <div
+                    class="row g-0 border border-primary rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">World</strong>
+                        <h4 class="mb-0">latest Lion NFT</h4>
+                        <div class="mb-1 text-muted">May 15</div>
+                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQewcYnZfaWtcQagdmaGfRtkZpaEPI5o1AcCRZjSjcBeA&s"
+                            alt="">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- blog second--row -->
+        <div class="row mb-2">
+            <!-- sceond row first--col -->
+            <div class="col-md-6 blog">
+                <div
+                    class="row g-0 border border-primary rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSvyXMYhnVo1UibmZgvwX7izuclKwdMCqI_QvH_10ygg&s"
+                            alt="">
+
+                    </div>
+
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">World</strong>
+                        <h4 class="mb-0">Latest Monkey NFT</h4>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
+                            lead-in to
+                            additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- second row second--col -->
+            <div class="col-md-6 blog">
+                <div
+                    class="row g-0 border border-primary rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">World</strong>
+                        <h4 class="mb-0">Latest Cow NFT</h4>
+                        <div class="mb-1 text-muted">Nov 11</div>
+                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVcsu_il_3elvX0vhvFM5k7CyNmISE-e_RD1QgrVZYlw&s"
+                            alt="">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact section  -->
+<h1 class="sub-title">Contact <span> Us</span></h1>
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h3>let's Earn<span> Together</span></h3>
+            <!-- <h4>Let's Work Together</h4> -->
+            <p>Lorem ipsum dolor sit amet Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque sint
+                necessitatibus impedit quam eum quo aspernatur eius accusamus deleniti corporis. consectetur adipisicing
+                elit. Voluptates architecto eveniet quibusdam dicta
+                tempore delectus ducimus maxime corporis ratione deleniti dolorum ullam possimus mollitia beatae,
+                placeat aliquid praesentium iure distinctio ab voluptatum deserunt.</p>
+            <div class="contact-list">
+                <li><i class="bx bxs-send"></i> DaniyalRaza808@gmail.com</li>
+                <li><i class="bx bxs-phone"></i> 03053799210</li>
+            </div>
+            <div class="contact-icons">
+                <a href=""><i class="bx bxl-facebook-circle"></i></a>
+                <a href=""><i class="bx bxl-instagram"></i></a>
+                <a href=""><i class="bx bxl-linkedin"></i></a>
+                <a href=""><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="">
+                <input type="" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <input type="" placeholder="Enter Your Subject">
+                <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message"></textarea>
+                <input type="submit" value="Submit" class="send">
+            </form>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <span>This Page Created By Daniyal Raza</span>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"
+        integrity="sha512-Gfrxsz93rxFuB7KSYlln3wFqBaXUc1jtt3dGCp+2jTb563qYvnUBM/GP2ZUtRC27STN/zUamFtVFAIsRFoT6/w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#autoWidth').lightSlider({
+                autoWidth: true,
+                loop: true,
+                onSliderLoad: function () {
+                    $('#autoWidth').removeClass('cS-hidden');
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
